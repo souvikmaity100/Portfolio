@@ -4,6 +4,7 @@ import { floatingImages } from "../constants";
 import { Globe } from "../components/Globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import Frameworks from "../components/Frameworks";
+import ImageCard from "../components/ImageCard";
 
 const AboutMe = () => {
   const containerRef = useRef();
@@ -15,10 +16,10 @@ const AboutMe = () => {
         </h1>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
           <div className="flex items-end grid-default-color grid-1">
-            <img
+            <ImageCard
               src="/images/coding-pov.png"
               alt="coding"
-              className="absolute scale-[1.75] -right-20 -top-4 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+              css_class="absolute scale-[1.75] -right-20 -top-4 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
             />
             <div className="z-10">
               <p className="headtext">Hi, I'm Souvik Maity</p>

@@ -1,6 +1,10 @@
-import { useRef, useState } from "react";
+import { useRef, useState, lazy, Suspense } from "react";
+import { useMediaQuery } from "react-responsive";
 import emailjs from "@emailjs/browser";
-import ContactExperience from "../models/contact/ContactExperience";
+
+const ContactExperience = lazy(() =>
+  import("../models/contact/ContactExperience")
+);
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -106,11 +110,15 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="xl:col-span-7 min-h-96">
-            <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
-              <ContactExperience />
-            </div>
-          </div>
+          {useMediaQuery({ minWidth: 768 }) ? (
+            <Suspense fallback={null}>
+              <div className="xl:col-span-7 min-h-96">
+                <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+                  <ContactExperience />
+                </div>
+              </div>
+            </Suspense>
+          ) : null}
         </div>
       </div>
     </section>

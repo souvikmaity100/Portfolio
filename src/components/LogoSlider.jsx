@@ -1,9 +1,10 @@
 import { logoIconsList } from "../constants";
+import ImageCard from "./ImageCard";
 
 const LogoIcon = ({ icon }) => {
   return (
     <div className="flex-none flex-center marquee-item size-10">
-      <img src={icon.imgPath} alt={icon.name} />
+      <ImageCard src={icon.imgPath} alt={icon.name} />
     </div>
   );
 };
@@ -26,7 +27,7 @@ const LogoSlider = () => (
         {logoIconsList.map((icon, index) => (
           <LogoIcon key={index} icon={icon} />
         ))}
-        
+
         {logoIconsList.map((icon, index) => (
           <LogoIcon key={index} icon={icon} />
         ))}

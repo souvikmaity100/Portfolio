@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "../constants";
 import GlowCard from "../components/GlowCard";
+import ImageCard from "../components/ImageCard";
 
 const Projects = () => {
   // eslint-disable-next-line react-hooks/purity
@@ -19,10 +20,10 @@ const Projects = () => {
             <GlowCard index={key} key={project.title}>
               <div className="group rounded-lg overflow-hidden shadow-xs h-full">
                 <div className="h-50 md:h-75 overflow-hidden">
-                  <img
+                  <ImageCard
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    css_class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 
@@ -45,18 +46,26 @@ const Projects = () => {
                   <p className="mb-4 subtext text-sm">{project.description}</p>
                   <div className="flex justify-between items-center">
                     <div className="flex space-x-3 z-50">
-                      {project?.demoUrl && <a
-                        href={project.demoUrl}
-                        target="_blank"
-                      >
-                        <img src="/external-link.svg" className="size-5 invert-100 hover:invert-75" alt="external-link" title="Open Live"/>
-                      </a>}
-                      {project?.githubUrl && <a
-                        href={project.githubUrl}
-                        target="_blank"
-                      >
-                        <img src="/github.svg" className="size-5 invert-100 hover:invert-75" alt="github" title="Open On GitHub"/>
-                      </a>}
+                      {project?.demoUrl && (
+                        <a href={project.demoUrl} target="_blank">
+                          <img
+                            src="/external-link.svg"
+                            className="size-5 invert-100 hover:invert-75"
+                            alt="external-link"
+                            title="Open Live"
+                          />
+                        </a>
+                      )}
+                      {project?.githubUrl && (
+                        <a href={project.githubUrl} target="_blank">
+                          <img
+                            src="/github.svg"
+                            className="size-5 invert-100 hover:invert-75"
+                            alt="github"
+                            title="Open On GitHub"
+                          />
+                        </a>
+                      )}
                     </div>
                     <p className="text-white-50">🗓️&nbsp;{project.date}</p>
                   </div>

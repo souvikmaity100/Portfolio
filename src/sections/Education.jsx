@@ -2,11 +2,11 @@ import { educations } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ImageCard from "../components/ImageCard";
 
 gsap.registerPlugin(ScrollTrigger);
 const Education = () => {
   useGSAP(() => {
-
     // Animate the timeline height as the user scrolls
     // from the top of the timeline to 70% down the screen
     // The timeline height should scale down from 1 to 0
@@ -83,7 +83,7 @@ const Education = () => {
                       </div>
                       <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                         <div className="timeline-logo">
-                          <img src={logoPath} alt="logo" />
+                          <ImageCard src={logoPath} alt="logo" />
                         </div>
                         <div>
                           <h1 className="font-semibold text-3xl">{title}</h1>
