@@ -208,7 +208,7 @@ export const projects = [
     image: "/images/projects/tour-travel.png",
     tags: ["HTML", "CSS", "JavaScript", "AOS"],
     githubUrl: "https://github.com/souvikmaity100/Tour-Travel",
-    demoUrl: "#",
+    demoUrl: "https://tour.souvikmaity.space/",
   },
   {
     id: 2,
@@ -219,7 +219,7 @@ export const projects = [
     image: "/images/projects/sportifi-ui.png",
     tags: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/souvikmaity100/Sportify-UI",
-    demoUrl: "#",
+    demoUrl: "https://music.souvikmaity.space/",
   },
   {
     id: 3,
@@ -239,7 +239,7 @@ export const projects = [
       "Designed and developed a fully functional website for a nozzles manufacturing company, showcasing its products, services, and expertise while enhancing its online presence and customer engagement",
     image: "/images/projects/jmt.png",
     tags: ["PHP", "JavaScript", "CSS", "MySQL"],
-    demoUrl: "#",
+    demoUrl: "https://jwt.souvikmaity.space/",
   },
   {
     id: 5,
@@ -250,7 +250,7 @@ export const projects = [
     image: "/images/projects/e_shop.png",
     tags: ["PHP", "JavaScript", "CSS", "MySQL", "Swiper JS"],
     githubUrl: "https://github.com/souvikmaity100/e_shop",
-    demoUrl: "#",
+    demoUrl: "https://shop.souvikmaity.space/",
   },
   {
     id: 6,
@@ -287,7 +287,7 @@ export const projects = [
       "A robust backend API for a Learning Management System (LMS) that facilitates course management, user authentication, and progress tracking. Built with Node.js, Express, and MongoDB, it provides secure and efficient endpoints for frontend integration.(Frontend Work in Progress)",
     image: "/images/projects/llm.png",
     tags: ["Node JS", "Express JS", "MongoDB", "JWT"],
-    githubUrl: "https://github.com/samkonnagar/LMS/tree/main/backend"
+    githubUrl: "https://github.com/samkonnagar/LMS/tree/main/backend",
   },
 ];
 
