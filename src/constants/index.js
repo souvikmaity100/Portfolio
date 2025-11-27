@@ -239,7 +239,7 @@ export const projects = [
       "Designed and developed a fully functional website for a nozzles manufacturing company, showcasing its products, services, and expertise while enhancing its online presence and customer engagement",
     image: "/images/projects/jmt.png",
     tags: ["PHP", "JavaScript", "CSS", "MySQL"],
-    demoUrl: "https://jwt.souvikmaity.space/",
+    demoUrl: "https://jmt.souvikmaity.space/",
   },
   {
     id: 5,

@@ -7,7 +7,7 @@ const ImageCard = ({ src, alt = "image", css_class = "" }) => {
       src={src}
       alt={alt}
       effect="blur"
-      height="100%"
+      width="100%"
       className={css_class}
     />
   );
