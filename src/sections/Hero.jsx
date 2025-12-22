@@ -4,6 +4,9 @@ import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../models/hero/HeroExperience";
 
+const isLowEndDevice =
+  window.innerWidth < 768 || navigator.hardwareConcurrency <= 4;
+
 const Hero = () => {
   useGSAP(() => {
     gsap.fromTo(
@@ -63,11 +66,13 @@ const Hero = () => {
         </header>
 
         {/* 3D Model */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
+        {isLowEndDevice ? null : (
+          <figure>
+            <div className="hero-3d-layout">
+              <HeroExperience />
+            </div>
+          </figure>
+        )}
       </div>
     </section>
   );
