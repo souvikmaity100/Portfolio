@@ -18,7 +18,7 @@ const Skills = () => {
       className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
       id="skills"
     >
-      <div className="w-full h-full md:px-20 px-5">
+      <div className="w-full h-full lg:px-10 xl:px-20 px-5">
         <h1 className="font-semibold md:text-4xl text-3xl text-center">
           My Technical Skills
         </h1>

@@ -205,9 +205,9 @@ export const projects = [
     date: "2023",
     description:
       "A beautiful Tour and Travel website is built with a structured codebase and minimal CSS, ensuring easy maintenance and seamless future updates.",
-    image: "/images/projects/tour-travel.png",
+    image: "/images/projects/tour_travel.jpeg",
     tags: ["HTML", "CSS", "JavaScript", "AOS"],
-    githubUrl: "https://github.com/souvikmaity100/Tour-Travel",
+    githubUrl: "https://github.com/souvikmaity100/Tour-Travel/",
     demoUrl: "https://tour.souvikmaity.space/",
   },
   {
@@ -216,9 +216,9 @@ export const projects = [
     date: "2024",
     description:
       "A modern web-based music player application inspired by Spotify's design, built with HTML, CSS, and JavaScript.",
-    image: "/images/projects/sportifi-ui.png",
+    image: "/images/projects/sportifi_ui.jpeg",
     tags: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/souvikmaity100/Sportify-UI",
+    githubUrl: "https://github.com/souvikmaity100/Sportify-UI/",
     demoUrl: "https://music.souvikmaity.space/",
   },
   {
@@ -227,9 +227,9 @@ export const projects = [
     date: "2025",
     description:
       "A full-stack social media application with features like user authentication, posting, commenting, and real-time updates using Node.js, React, Express, and MongoDB. (Frontend Work in Progress)",
-    image: "/images/projects/social-media.png",
+    image: "/images/projects/social_media.jpeg",
     tags: ["Node JS", "React JS", "Express JS", "MongoDB", "JWT"],
-    githubUrl: "https://github.com/samkonnagar/Social-Media",
+    githubUrl: "https://github.com/samkonnagar/Social-Media/",
   },
   {
     id: 4,
@@ -237,7 +237,7 @@ export const projects = [
     date: "2024",
     description:
       "Designed and developed a fully functional website for a nozzles manufacturing company, showcasing its products, services, and expertise while enhancing its online presence and customer engagement",
-    image: "/images/projects/jmt.png",
+    image: "/images/projects/jmt.jpeg",
     tags: ["PHP", "JavaScript", "CSS", "MySQL"],
     demoUrl: "https://jmt.souvikmaity.space/",
   },
@@ -247,9 +247,9 @@ export const projects = [
     date: "2023",
     description:
       "Developed an online shopping site using core PHP and MySQL, enabling users to buy multiple products, wishlist items, and providing sellers with separate dashboards for product management.",
-    image: "/images/projects/e_shop.png",
+    image: "/images/projects/e_shop.jpeg",
     tags: ["PHP", "JavaScript", "CSS", "MySQL", "Swiper JS"],
-    githubUrl: "https://github.com/souvikmaity100/e_shop",
+    githubUrl: "https://github.com/souvikmaity100/e_shop/",
     demoUrl: "https://shop.souvikmaity.space/",
   },
   {
@@ -258,7 +258,7 @@ export const projects = [
     date: "2025",
     description:
       "A full-stack web application for tracking fitness activities, workouts, and progress. Built with modern web technologies and a focus on user experience.",
-    image: "/images/projects/fitness-tracker.png",
+    image: "/images/projects/fitness.jpeg",
     tags: [
       "Node JS",
       "React JS",
@@ -268,7 +268,8 @@ export const projects = [
       "Chart JS",
       "Axios",
     ],
-    githubUrl: "https://github.com/souvikmaity100/Fitness-Tracker",
+    githubUrl: "https://github.com/souvikmaity100/Fitness-Tracker/",
+    demoUrl: "https://fitness.souvikmaity.space/",
   },
   {
     id: 7,
@@ -276,7 +277,7 @@ export const projects = [
     date: "2024",
     description:
       "The Flood Simulation Model is an advanced tool that integrates map API and 3D models to predict and visualize flood scenarios. Designed for the West Bengal Police, it enhances disaster preparedness by providing real-time simulations, aiding decision-making, and improving emergency response efficiency.",
-    image: "/images/projects/flood.png",
+    image: "/images/projects/flood.jpeg",
     tags: ["Node JS", "EJS", "Express JS", "Three JS", "Map API", "JavaScript"],
   },
   {
@@ -285,9 +286,20 @@ export const projects = [
     date: "2025",
     description:
       "A robust backend API for a Learning Management System (LMS) that facilitates course management, user authentication, and progress tracking. Built with Node.js, Express, and MongoDB, it provides secure and efficient endpoints for frontend integration.(Frontend Work in Progress)",
-    image: "/images/projects/llm.png",
+    image: "/images/projects/llm.jpeg",
     tags: ["Node JS", "Express JS", "MongoDB", "JWT"],
-    githubUrl: "https://github.com/samkonnagar/LMS/tree/main/backend",
+    githubUrl: "https://github.com/samkonnagar/LMS/tree/main/backend/",
+  },
+  {
+    id: 9,
+    title: "Kotha - Chat App",
+    date: "2025",
+    description:
+      "A real-time chat application enabling users to communicate instantly through text messages. Built with Node.js, Express, Socket.io, and MongoDB, it offers features like user authentication and message history.",
+    image: "/images/projects/chat.jpeg",
+    tags: ["Node JS", "Express JS", "MongoDB", "JWT", "Socket.io"],
+    githubUrl: "https://github.com/souvikmaity100/Kotha-ChatApp/",
+    demoUrl: "https://chat.souvikmaity.space/",
   },
 ];
 

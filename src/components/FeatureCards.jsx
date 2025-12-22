@@ -2,7 +2,7 @@ import { abilities } from "../constants";
 import GlowCard from "./GlowCard";
 
 const FeatureCards = () => (
-  <div className="w-full md:px-10 lg:px-20 px-5 mb-8">
+  <div className="w-full mb-8">
     <div className="mx-auto grid-3-cols">
       {abilities.map(({ imgPath, title, desc }, ind) => (
         <GlowCard index={ind} key={title}>
